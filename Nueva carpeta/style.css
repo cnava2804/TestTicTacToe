@@ -1,0 +1,24 @@
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+td {
+  border: 1px solid #000;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+}
+.cell:active {
+  animation: glow 0.5s ease-in-out;
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 5px #fff;
+  }
+  to {
+    box-shadow: 0 0 15px #fff;
+  }
+}
